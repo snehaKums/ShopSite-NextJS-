@@ -45,7 +45,7 @@ const Details = ({data}) => {
         />
         <p className="card-subtext">Price: $ {data.price}</p>
         <p className="description">{data. description}</p>
-        <button className="button">Add to Cart</button>
+        {/* <button className="button">Add to Cart</button> */}
         </div>
       <Footer   />
     </Layout>

@@ -34,7 +34,7 @@ export default function Home({products}) {
                                <a href={'/detail/' + product.id}>
                                     <button className="button">Detail</button>
                                 </a>
-                                <button className="button">Add to Cart</button>
+                                {/* <button className="button">Add to Cart</button> */}
                             </div>
                         </div>
                     </div>
