@@ -46,6 +46,7 @@ body {
 .card{
   margin-bottom: 20px;
   padding: 10px;
+  text-align: center;
 }
 .card-horizontal {
   display: flex;
