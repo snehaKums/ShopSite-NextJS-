@@ -1,0 +1,152 @@
+
+body { 
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  font-family: Verdana,Arial,Trebuchet,"Trebuchet MS",Helvetica,Sans-Serif;
+}
+.imgDiv{
+  margin-right: 2%;
+}
+.header {
+  display: flex;
+  background-color:white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.headerLink{
+  text-decoration: none;
+  color: black;
+  padding-right: 2rem;
+  font-size:20px;
+  padding-top: 1em;
+}
+.footer {
+  height: 5rem;
+  color: black;
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+  margin-top:5%;
+}
+.footerText{
+  margin-top: 1.8%;
+}
+.aboutHeader{
+  font-size: 32px;
+}
+.aboutSubHeader{
+  font-size: 22px;
+}
+.aboutText{
+  font-size: 16px;
+  letter-spacing: .448px;
+  line-height: 30px;
+}
+.card{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.card-body{
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.card-text{
+  font-size: 32px;
+}
+.card-subtext{
+  font-size:22px;
+}
+.detail{
+  text-align: center;
+}
+.description{
+  font-size: 28px;
+}
+.button {
+  background-color: #6c63ff; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .headerLink{
+    font-size: 16px;
+    padding-top: 1.5em;
+  }
+  .footerText{
+    margin-top: 3.2%;
+  }
+  .card-body{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .card-text{
+    font-size: 28px;
+  }
+  .button{
+    margin-bottom: 20px;
+  }
+}
+ @media only screen and (max-width: 600px) {
+  .headerLink {
+    padding-right:1rem;
+    font-size: 16px;
+    margin-top: 5.5%;
+  }
+  .footer{
+    height: 3.5rem;
+  }
+  .footerText{
+    margin-top: 3.2%;
+  }
+  .aboutHeader{
+    text-align: center;
+  }
+  .aboutSubHeader{
+    text-align: center;
+  }
+  .card-horizontal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .img-square-wrapper{
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+  }
+  .card-body{
+    margin-top: -20px;
+    order: 2;
+  }
+  .card-text{
+    font-size: 25px;
+    text-align: center;
+  }
+  .card-subtext{
+    text-align: center;
+  }
+  .button{
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  .detail-heading{
+    font-size:24px ;
+  }
+  .description{
+    font-size: 20px;
+  }
+} 
