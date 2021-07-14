@@ -10,7 +10,7 @@ export default function Product({postNum,search}){
                         <Col xs={12} sm={12} md={12} lg={12}>
                         <Row>                    
                             {search.slice(0, postNum).map((item) => (
-                            <Col md={4} lg={3}>
+                            <Col key={item.id} md={4} lg={3}>
                                 <div className={styles.card}>
                                 <Image
                                     alt='Logo img'

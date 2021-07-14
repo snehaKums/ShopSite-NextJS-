@@ -20,10 +20,10 @@ export default function SearchAndFilter({value,search,filter}){
                             aria-label="Filter Products By Category"
                         >
                             <option value="All">All Category</option>
-                            <option value="men's clothing">Men's clothing</option>
+                            <option value="men's clothing">Men clothing</option>
                             <option value="jewelery">Jewelery</option>
                             <option value="electronics">Electronics</option>
-                            <option value="women's clothing">Women's clothing</option>
+                            <option value="women's clothing">Women clothing</option>
                         </select>
                         <span className={styles.focus}></span>
                     </div>
