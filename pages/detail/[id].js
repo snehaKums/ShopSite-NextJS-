@@ -1,8 +1,6 @@
 import axios from 'axios';
-import Layout from '../../components/Layout';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
 import Image from 'next/image';
+import styles from './detail.module.css'
 
 export const getStaticPaths = async () => {
     const res = await axios.get(process.env.API_MAIN_URL);
@@ -33,22 +31,19 @@ export const getStaticProps = async(context) =>{
 
 const Details = ({data}) => {
   return (
-    <Layout pageTitle="ShopSite" >
-       <Header  />
-        <div className="detail">
-        <h1 className="detail-heading">{data.title}</h1>
+        <div className={styles.detail}>
+        <h1 className={styles.detailHeading}>{data.title}</h1>
+        <div className={styles.detailImg}>
         <Image
               alt='Logo img'
               src={data.image}
-              width={400}
-              height={400}
+              width={600}
+              height={600}
         />
-        <p className="card-subtext">Price: $ {data.price}</p>
-        <p className="description">{data. description}</p>
-        {/* <button className="button">Add to Cart</button> */}
         </div>
-      <Footer   />
-    </Layout>
+        <p className={styles.detailPrice}>Price : $ {data.price}</p>
+        <p className={styles.description}>{data. description}</p>
+        </div>
   );
 
 }
