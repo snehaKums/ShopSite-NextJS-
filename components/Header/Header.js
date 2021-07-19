@@ -18,9 +18,9 @@ const Header = () => {
                 <NavLink href={'/'} className={styles.headerLink} >
                     Home
                 </NavLink>
-                {/* <NavLink href={'/products'} className="headerLink" >
-                    Products
-                </NavLink> */}
+                <NavLink href={'/products'} className={styles.headerLink} >
+                  Products
+                </NavLink>
                 <NavLink href={'/about'} className={styles.headerLink} >
                     About Us
                 </NavLink>

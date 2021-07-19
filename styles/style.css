@@ -1,7 +1,7 @@
 
 body { 
-  margin: 0 auto;
-  /* max-width: 1440px; */
+  margin: 0 auto !important;
+  max-width: 1440px;
   width: 100%;
   font-family: Verdana,Arial,Trebuchet,"Trebuchet MS",Helvetica,Sans-Serif;
 }
@@ -30,7 +30,7 @@ body {
   background-color: #6c63ff; 
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 8px 15px;
   text-decoration: none;
   font-size: 22px;
   border-radius: 8px;
@@ -73,4 +73,5 @@ body {
     text-align: center;
     padding-top:0;
    }
+
 } 
