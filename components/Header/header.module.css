@@ -4,8 +4,8 @@
   .header {
     display: flex;
     background-color:white;
-    margin-top: 0.5%;
-    margin-bottom: 2%;
+    margin-top: 0.2%;
+    margin-bottom: 1%;
   }
   .headerLink{
     text-decoration: none;
