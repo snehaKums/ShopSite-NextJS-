@@ -13,7 +13,7 @@ const ProductCategory =({products}) => {
                                 height={250}
                             />
                             <a href={'/category/' + products[0].category}>
-                                <button className={styles.button} style={{marginLeft:'c'}}>Explore Men clothing</button>
+                                <button className={styles.button} style={{marginLeft:'13%'}}>Explore Men clothing</button>
                             </a> 
                     </div>
                     <div className="col">
