@@ -3,7 +3,7 @@
   overflow: auto
 }
 .detailHeading{
-  font-size:20px ;
+  font-size:24px ;
   text-align: center;
 }
 .detailImg{
@@ -16,25 +16,19 @@
 }
 .description{
   margin-top: 2%;
-  font-size: 28px;
+  font-size: 18px;
 }
 .detailPrice{
   color: #6c63ff;
   margin-top: 5%;
-  font-size:32px;
+  font-size:22px;
 }
 @media only screen and (max-width: 1024px) {
   .detail{
     text-align: center;
   }
-  .detailHeading{
-    font-size:22px ;
-  }
   .detailPrice{
     text-align: center;
-  }
-  .description{
-    font-size: 20px;
   }
 }
 @media only screen and (max-width: 600px) {
