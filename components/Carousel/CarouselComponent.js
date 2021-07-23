@@ -35,7 +35,7 @@ const CarouselComponent = () => {
           <Image
             src={item.src} alt={item.altText}
             width={100}
-            height={25}
+            height={20}
             layout='responsive'
           />
           </div>
