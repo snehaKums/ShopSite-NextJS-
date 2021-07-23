@@ -37,8 +37,8 @@ const Details = ({data}) => {
         <Image
               alt='Logo img'
               src={data.image}
-              width={600}
-              height={600}
+              width={400}
+              height={400}
         />
         </div>
         <p className={styles.detailPrice}>Price : $ {data.price}</p>
