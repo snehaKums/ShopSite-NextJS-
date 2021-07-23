@@ -32,10 +32,10 @@ export const getStaticProps = async(context) =>{
 
 const Details = ({data}) => {
   return (
-    <Container fluid style={{margin-top:'-5%'}} >
+    <Container fluid >
     <Row>
         <Col xs={12} sm={12} md={12} lg={12}>
-        <Row>                    
+        <Row style={{margin-top:'-2%'}}>                    
             {data.map(item => (
             <Col key={item.id} md={4} lg={3}>
                 <div className={styles.card}>
