@@ -15,8 +15,8 @@ export default function Product({postNum,search}){
                                 <Image
                                     alt='Logo img'
                                     src={item.image}
-                                    width={180}
-                                    height={180}
+                                    width={150}
+                                    height={120}
                                     />
                                     <h1 className={styles.cardText}>{item.title}</h1>
                                     <p className={styles.cardSubtext}>Price: $ {item.price}</p>
