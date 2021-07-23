@@ -32,7 +32,7 @@ export const getStaticProps = async(context) =>{
 
 const Details = ({data}) => {
   return (
-    <Container fluid>
+    <Container fluid style={{margin-top:'-5%'}} >
     <Row>
         <Col xs={12} sm={12} md={12} lg={12}>
         <Row>                    
