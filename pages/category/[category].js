@@ -42,8 +42,8 @@ const Details = ({data}) => {
                 <Image
                     alt='Logo img'
                     src={item.image}
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     />
                     <h1 className={styles.cardText}>{item.title}</h1>
                     <p className={styles.cardSubtext}>Price: $ {item.price}</p>
